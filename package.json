@@ -1,6 +1,6 @@
 {
   "name": "urlhash",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple library for reading and writing parameters to the URL hash.",
   "main": "urlHash.js",
   "scripts": {

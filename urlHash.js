@@ -1,3 +1,5 @@
+function urlhash() {
+
 function getUrlHashParameter(param) {
 
   var params = getUrlHashParameters();
@@ -40,3 +42,14 @@ function setUrlHashParameter(param, value) {
   setUrlHashParameters(params);
 
 }
+
+return {
+  getUrlHashParameter:   getUrlHashParameter,
+  getUrlHashParameters:  getUrlHashParameters,
+  setUrlHashParameter:   setUrlHashParameter,
+  setUrlHashParameters:  setUrlHashParameters
+}
+
+}
+
+if (export) export.modules = urlhash;

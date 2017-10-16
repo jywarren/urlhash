@@ -52,4 +52,4 @@ return {
 
 }
 
-if (window && window.hasOwnProperty('export')) export.modules = urlHash;
+if (window && window.hasOwnProperty('module')) module.exports = urlHash;

@@ -1,4 +1,4 @@
-function urlhash() {
+function urlHash() {
 
 function getUrlHashParameter(param) {
 
@@ -52,4 +52,4 @@ return {
 
 }
 
-if (export) export.modules = urlhash;
+if (window && window.hasOwnProperty('export')) export.modules = urlHash;

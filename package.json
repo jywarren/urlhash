@@ -1,8 +1,8 @@
 {
   "name": "urlhash",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A simple library for reading and writing parameters to the URL hash.",
-  "main": "urlHash.js",
+  "main": "urlHash-browserify.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

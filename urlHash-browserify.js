@@ -51,3 +51,5 @@ return {
 }
 
 }
+
+if (window && window.hasOwnProperty('module')) module.exports = urlHash;
